@@ -1,0 +1,100 @@
+body{
+	background-color: darkOliveGreen;
+	display: block;								/* BLOCK ELEMENT */
+}
+main{
+	background-color: ivory;
+	border-radius: 10px;
+}
+
+header{
+	font-family: Franklin Gothic Medium;
+	font-size: 20px;
+}
+
+h1{
+	color: darkgreen;
+	background-color: ivory;
+	text-align: center;
+	font-family: Franklin Gothic Medium;
+	font-size: 50px;
+	border-radius: 10px;
+}
+
+nav{
+	background-color: burlyWood;
+	text-align: center;
+	font-size: 25 px;
+	border-radius: 10px;
+}
+
+li{				
+	display: inline;			
+	padding: 25px;
+}
+
+img{
+	width: 75%;
+	max-width: 100%;
+	height:auto;
+}
+
+#front-page{
+	width: 400px;
+	height: auto;
+	float: right;			/* FLOAT ELEMENT */
+}
+
+p{
+	color: black;
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+h2{
+	color: lightSalmon;
+	font-family: Franklin Gothic Medium;
+	font-size: 40px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+#Introduction{
+	background-color: ivory;
+	text-align: center;
+	border-radius: 10px;
+	padding-bottom: 2px;
+}
+
+#Academics{
+	background-color: ivory;
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+	left: 70px;
+}
+
+#Hobbies{
+	background-color: ivory;
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;			/* INLINE USAGE */
+	position: relative;				/* RELATIVE POSITIONING */
+	top: 40px;
+	left: 140px;
+}
+
+a{
+	color: darkSlateGray;
+	font-size: 18px;
+}
+
+a:hover{
+	color: purple;
+}

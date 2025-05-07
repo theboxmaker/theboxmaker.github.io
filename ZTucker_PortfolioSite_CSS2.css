@@ -1,0 +1,25 @@
+.row{
+	display: flex;
+}
+
+.column{
+	flex:25%;
+	padding: 5px;
+	justify-content: center;
+}
+
+#flex1{
+	display: flex;						/* FLEX/FLEXBOX USAGE */
+	justify-content: center;
+}
+
+#flex2{
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+@media only screen and (max-width: 360px) {			/* @MEDIA USAGE */
+	body{
+		font-size: 25px;
+	}
+}
