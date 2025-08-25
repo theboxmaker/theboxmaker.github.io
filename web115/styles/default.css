@@ -20,6 +20,6 @@ li {
 }
 
 img {
-    max-width: 50%;
-    max-height: 50%
+    width: 50%;
+    height: 50%
 }
