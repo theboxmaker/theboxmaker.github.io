@@ -1,12 +1,10 @@
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:darkolivegreen;
-    background-color: antiquewhite;
 }
 
 p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aquamarine;
 }
 
 a {
@@ -27,5 +25,5 @@ img {
 }
 
 html{
-    background-color: white;
+    background-color: rgb(151, 174, 157);
 }
