@@ -18,3 +18,8 @@ h2 {
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
+img {
+    max-width: 50%;
+    height: auto
+}
