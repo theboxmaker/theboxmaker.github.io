@@ -1,15 +1,12 @@
-html {
-    background-color: darkolivegreen;
-    opacity: 35%
-}
-
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:darkolivegreen
+    color:darkolivegreen;
+    background-color: antiquewhite;
 }
 
 p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
 }
 
 a {
