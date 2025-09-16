@@ -15,15 +15,16 @@ h2 {
     font-size: 36px;
 }
 
-h3{
+h3 {
     color:#3e2723;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-p{
+
+p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ul {
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
