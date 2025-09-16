@@ -1,29 +1,31 @@
+body {
+    background-color: #e3dac9;
+}
+
 h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:darkolivegreen;
-}
-
-p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-a {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    color: #3e2723;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    color: #8b4513;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+
+h3{
+    color:#3e2723;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-img {
-    width: 50%;
-    height: auto
-}
-
-html{
-    background-color: rgb(151, 174, 157);
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
