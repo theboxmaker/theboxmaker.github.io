@@ -55,6 +55,10 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+footer {
+    color:#e3dac9;
+}
+
 nav {
   list-style-type: none;
   margin: 0px;
