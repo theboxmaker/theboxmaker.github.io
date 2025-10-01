@@ -8,6 +8,11 @@ main{
     margin: 20px;
 }
 
+img {
+    display: flex;
+    float: right;
+    max-width: 300px;
+}
 h1 {
     color: #3e2723;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
