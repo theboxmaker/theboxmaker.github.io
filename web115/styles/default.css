@@ -13,6 +13,7 @@ img {
     float: right;
     max-width: 300px;
 }
+
 h1 {
     color: #3e2723;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +21,9 @@ h1 {
     text-align: center;
 }
 
+.navbar {
+    width: 100vw;
+}
 
 .navbar ul {
     list-style-type: none;
