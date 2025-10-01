@@ -23,6 +23,8 @@ h1 {
 
 .navbar {
     width: 100vw;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar ul {
