@@ -10,5 +10,5 @@ function greeting() {
 
     greeting += last + "!";
 
-    document.getElementById(greeting).textContent = greeting;
+    document.getElementById(greeting).innerHTML = greeting;
 }
