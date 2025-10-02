@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/default.css">
-    <title>TuckTech</title>
-    <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+    <title>FizzBuzz 0</title>
     <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
-    <script src="scripts/HTMLInclude.js"></script>
+    <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
 </head>
 <header>
-    <h1>TuckTech - Brand Guide</h1>
+    <h1>Zachary Tucker's Web Projects - WEB115</h1>
     <nav class="navbar">
         <a href="index.html">Home</a> 
         <a href="introduction.html">Introduction</a> 
-        <a href="contract.html">Contract</a> 
+        <a href="contract.html">Contract</a>
         <a href="brand.html">TuckTech</a>
         <a href="fizzbuzz0.html">FizzBuzz 0</a>
     </nav>
 </header>
 <main>
-    <h2><i>"Your vision, our code"</i></h2>
-    <h3>Brand Guide</h3>
-    <p>Font Family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif</p>
-    <p>Colors:</p>
-        <ul>
-            <li>Rich Sienna   HEX: #8B4513 - used for logos, call to action buttons, navigation, and text highlights</li>
-            <li>Soft Beige   HEX: #E3DAC9 - used for the main background color throughout the website</li>
-            <li>Dark Espresso   HEX: #8B4513 - used to highlight important sections, headings, etc. </li>
-        </ul>
+    <h2>FizzBuzz 0</h2>
+    <h3 id="greeting">Greeting</h3>
+    <form onsubmit="greeting(); return false;">
+        <input type="text" id="first_name" placeholder="Enter your first name" required>
+        <input type="text" id="middle_initial" placeholder="M" maxlength="1">
+        <input type="text" id="last_name" placeholder="Enter your last name" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="loop">
+
+    </div>
 </main>
 <footer>
     <p>Website designed by Zachary Tucker</p>
