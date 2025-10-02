@@ -1,3 +1,7 @@
+function checkDivison(num, divisor) {
+    return num % divisor === 0;
+}
+
 function greeting() {
     const firstName = document.getElementById('first_name').value;
     const lastName = document.getElementById('last_name').value;
@@ -14,10 +18,12 @@ function greeting() {
     document.getElementById("greeting").textContent = greeting;
 
     let limit = 140;
+    const firstDivisor = 4;
+    const secondDivisor = 6;
 
     const rules = [
-        { divisor: 3, word: "WELCOME" },
-        { divisor: 5, word: "GREETINGS" }
+        { divisor: firstDivisor, word: "WELCOME" },
+        { divisor: secondDivisor, word: "GREETINGS" }
     ];
 
     const defaultPhrases = [
@@ -31,10 +37,10 @@ function greeting() {
         let words = [];
 
         rules.forEach((rule) => {
-            if (i % rule.divisor === 0) {
-                if (rule.divisor === 3) {
+            if (checkDivison(i, rule.divisor)) {
+                if (rule.divisor === firstDivisor) {
                     words.push(`<span class="third-word">${rule.word}</span>`);
-                } else if (rule.divisor === 5) {
+                } else if (rule.divisor === secondDivisor) {
                     words.push(`<span class="fifth-word">${rule.word}</span>`);
                 }
             }
