@@ -23,9 +23,9 @@ function greeting() {
     const thirdDivisor = 8;
 
     const rules = [
-        { divisor: firstDivisor, word: "WELCOME" },
-        { divisor: secondDivisor, word: "GREETINGS"},
-        { divisor: thirdDivisor, word: "HEY"}
+        { divisor: firstDivisor, word: "WELCOME", className: "first-div" },
+        { divisor: secondDivisor, word: "GREETINGS", className: "second-div"},
+        { divisor: thirdDivisor, word: "HEY", className: "third-div"}
     ];
 
     const defaultPhrases = [
@@ -40,15 +40,9 @@ function greeting() {
 
         rules.forEach((rule) => {
             if (checkDivison(i, rule.divisor)) {
-                if (rule.divisor === firstDivisor) {
-                    words.push(`<span class="first-div">${rule.word}</span>`);
-                } else if (rule.divisor === secondDivisor) {
-                    words.push(`<span class="second-div">${rule.word}</span>`);
-                } else if (rule.divisor === thirdDivisor) {
-                    words.push(`<span class="third-div")>${rule.word}</span>`);
-                }
-            }
-        });
+                words.push(`<span class="${rule.className}"> ${rule.word}</span>`)
+        }});
+
 
         if (words.length > 0) {
             line += words.join(" ");
