@@ -28,7 +28,7 @@ function greeting() {
         let line = `${i}.) `;
         let words = [];
 
-        rules.forEach(rule => {
+        rules.forEach ((rule) => {
             if (i % rule.divisor === 0) {
                 words.push(rule.word);
             }
