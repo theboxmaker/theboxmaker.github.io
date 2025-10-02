@@ -84,12 +84,12 @@ a {
 
 .third-word {
     color: green;
-    background-color: #e3dac9;
+    font-weight: bold;
 }
 
 .fifth-word {
     color: darkolivegreen;
-    background-color:bisque
+    font-weight: bolder;
 }
 
 #loop {
