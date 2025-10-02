@@ -3,7 +3,7 @@ function greeting() {
     const lastName = document.getElementById('last_name').value;
     const middleInitial = document.getElementById('middle_initial').value;
 
-    let greeting = `Welcome to TuckTech ${firstName}`;
+    let greeting = `Welcome to TuckTech, ${firstName}`;
 
     if (middleInitial !== "") {
         greeting += " " + middleInitial + ".";
@@ -28,9 +28,9 @@ function greeting() {
             }
         }
 
-        document.getElementById('loop').innerHTML = loopRun
+        document.getElementById('loop').innerHTML = loopRun;
     } else {
-        document.getElementById('loop').innerHTML = "<p>Please enter a valid positive number.</p>"
+        document.getElementById('loop').innerHTML = "<p>Please enter a valid positive number.</p>";
     }
 
 }
