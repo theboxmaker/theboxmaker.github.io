@@ -26,7 +26,7 @@ function greeting() {
 
     for (let i = 1; i <= limit; i++) {
         let line = `${i}.) `;
-        let words = []
+        let words = [];
 
         rules.forEach(rule => {
             if (i % rule.divisor === 0) {

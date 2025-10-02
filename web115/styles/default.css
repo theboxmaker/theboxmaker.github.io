@@ -87,3 +87,7 @@ a {
     padding: 1rem;
     margin: 1rem;
 }
+
+#numList {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
