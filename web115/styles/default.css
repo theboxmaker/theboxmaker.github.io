@@ -82,6 +82,16 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.third-word {
+    color: green;
+    background-color: #e3dac9;
+}
+
+.fifth-word {
+    color: darkolivegreen;
+    background-color:bisque
+}
+
 #loop {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 1rem;

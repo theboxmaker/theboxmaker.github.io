@@ -28,9 +28,13 @@ function greeting() {
         let line = `${i}.) `;
         let words = [];
 
-        rules.forEach ((rule) => {
+        rules.forEach((rule) => {
             if (i % rule.divisor === 0) {
-                words.push(rule.word);
+                if (rule.divisor === 3) {
+                    words.push(`<span class="third-word">${rule.word}</span>`);
+                } else if (rule.divisor === 5) {
+                    words.push(`<span class="fifth-word">${rule.word}</span>`);
+                }
             }
         });
 
