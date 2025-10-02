@@ -21,9 +21,9 @@
 <main>
     <h2>FizzBuzz 0</h2>
     <h3 id="greeting">Greeting</h3>
-    <form>
+    <form onsubmit="greeting(); return false;">
         <input type="text" id="first_name" placeholder="Enter your first name" required>
-        <input type="text" id="middle_initial" placeholder="M" maxlength="1" required>
+        <input type="text" id="middle_initial" placeholder="M" maxlength="1">
         <input type="text" id="last_name" placeholder="Enter your last name" required>
         <button type="submit">Submit</button>
     </form>
