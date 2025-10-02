@@ -35,7 +35,7 @@ function greeting() {
                 if (rule.divisor === 3) {
                     words.push(`<span class="first-div">${rule.word}</span>`);
                 } else if (rule.divisor === 5) {
-                    words.push(`<span class="secoind-div">${rule.word}</span>`);
+                    words.push(`<span class="second-div">${rule.word}</span>`);
                 }
             }
         });
