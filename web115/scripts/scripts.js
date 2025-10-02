@@ -1,14 +1,14 @@
 function greeting() {
-    const firstName = document.getElementById(first_name);
-    const lastName = document.getElementById(last_name);
-    const middleInitial = document.getElementById(middle_initial);
+    const firstName = document.getElementById('first_name').value;
+    const lastName = document.getElementById('last_name').value;
+    const middleInitial = document.getElementById('middle_initial').value;
     let greeting = `Welcome to TuckTech ${firstName}`;
 
     if (middle !== "") {
-        greeting += middle + ".";
+        greeting += middleInitial + ".";
     }
 
-    greeting += last + "!";
+    greeting += lastName + "!";
 
-    document.getElementById(greeting).textContent = `${greeting}`;
+    document.getElementById("greeting").textContent = `${greeting}`;
 }
