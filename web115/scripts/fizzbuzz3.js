@@ -20,7 +20,7 @@ function greeting() {
     let limit = 140;
     const firstDivisor = 4;
     const secondDivisor = 6;
-    const thirdDivisor = 8;
+    const thirdDivisor = 7;
 
     const rules = [
         { divisor: firstDivisor, word: "WELCOME", className: "first-div" },
