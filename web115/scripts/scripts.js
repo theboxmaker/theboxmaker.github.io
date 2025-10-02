@@ -10,5 +10,5 @@ function greeting() {
 
     greeting += last + "!";
 
-    document.getElementById(greeting).innerHTML = greeting;
+    document.getElementById(greeting).textContent = `${greeting}`;
 }
