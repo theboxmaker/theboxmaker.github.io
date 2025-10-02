@@ -82,14 +82,20 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.third-word {
+.first-div {
     color: green;
     font-weight: bold;
 }
 
-.fifth-word {
+.second-div {
     color: darkolivegreen;
     font-weight: bolder;
+}
+
+.third-div {
+    color:#8b4513;
+    font-weight:900;
+    text-decoration: line-through;
 }
 
 #loop {

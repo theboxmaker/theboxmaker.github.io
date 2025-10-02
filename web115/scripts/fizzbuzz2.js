@@ -39,9 +39,9 @@ function greeting() {
         rules.forEach((rule) => {
             if (checkDivison(i, rule.divisor)) {
                 if (rule.divisor === firstDivisor) {
-                    words.push(`<span class="third-word">${rule.word}</span>`);
+                    words.push(`<span class="first-div">${rule.word}</span>`);
                 } else if (rule.divisor === secondDivisor) {
-                    words.push(`<span class="fifth-word">${rule.word}</span>`);
+                    words.push(`<span class="second-div">${rule.word}</span>`);
                 }
             }
         });
