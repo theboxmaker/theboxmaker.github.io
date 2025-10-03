@@ -24,6 +24,11 @@ img {
     height:auto;
 }
 
+.logo-header img {
+    width: 100px;
+    height: auto;
+}
+
 h1 {
     color: #3e2723;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
