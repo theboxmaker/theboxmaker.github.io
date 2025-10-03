@@ -26,7 +26,9 @@ img {
 
 .logo-header img {
     width: 100px;
-    height: auto;
+    height: auto;  
+    display: flex;
+    float: left;
 }
 
 h1 {
