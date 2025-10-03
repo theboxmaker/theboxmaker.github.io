@@ -24,7 +24,7 @@ img {
     height:auto;
 }
 
-.logo-header img {
+.logo-header {
     width: 100px;
     height: auto;  
     display: flex;
