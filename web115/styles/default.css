@@ -92,17 +92,17 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.first-div {
+.word1 {
     color: green;
     font-weight: bold;
 }
 
-.second-div {
+.word2 {
     color: darkolivegreen;
     font-weight: bolder;
 }
 
-.third-div {
+.word3 {
     color:#8b4513;
     font-weight:900;
     text-decoration: line-through;

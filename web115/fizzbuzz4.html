@@ -17,32 +17,53 @@
     <main>
         <h2>FizzBuzz 4</h2>
         <h3 id="greeting">Greetings!</h3>
+
         <div class="form-container">
             <form id="form">
-                <h3>Please enter your name below: </h3>
-                <input type="text" id="first_name" placeholder="Enter your first name" required>
+                <h3>Please enter your name below:</h3>
+                <input type="text" id="first_name" placeholder="First Name" required>
                 <input type="text" id="middle_initial" placeholder="M" maxlength="1">
-                <input type="text" id="last_name" placeholder="Enter your last name" required>
+                <input type="text" id="last_name" placeholder="Last Name" required>
 
-                <h3>Divisor settings: </h3>
-                <label>Divisor 1:<input type="number" id="div1" value="3" required></label>
-                <label>Word 1:<input type="text" id=word1 value="Default1" required></label>
-                <label>Divisor 2:<input type="number" id="div2" value="5" required></label>
-                <label>Word 2:<input type="text" id=word2 value="Default2" required></label>
-                <label>Divisor 3:<input type="number" id="div3" value="7" required></label>
-                <label>Word 3:<input type="text" id=word3 value="Default3" required></label>
+                <h3>Divisor Settings:</h3>
+                <p>Enter three numbers and the words that should replace them if divisible.</p>
 
-                <label>Default Word for numbers with no match:<input type="text" id="default-word" value=""></label>
+                <label>Divisor 1:
+                    <input type="number" id="div1" value="3" min="1" required>
+                </label>
+                <label>Word 1:
+                    <input type="text" id="word1" value="Fizz" placeholder="Word for divisor 1" required>
+                </label>
 
-                <label>Total Line Count: <input type="number" id="total" value="125" required></label>
+                <label>Divisor 2:
+                    <input type="number" id="div2" value="5" min="1" required>
+                </label>
+                <label>Word 2:
+                    <input type="text" id="word2" value="Buzz" placeholder="Word for divisor 2" required>
+                </label>
 
-                <button type="submit">Submit</button>
+                <label>Divisor 3:
+                    <input type="number" id="div3" value="7" min="1" required>
+                </label>
+                <label>Word 3:
+                    <input type="text" id="word3" value="Bang" placeholder="Word for divisor 3" required>
+                </label>
+
+                <label>Default Word (for numbers with no match):
+                    <input type="text" id="default-word" value="" placeholder="Leave blank for nothing">
+                </label>
+
+                <label>Total Line Count:
+                    <input type="number" id="total" value="125" min="1" required>
+                </label>
+
+                <button type="submit">Run FizzBuzz</button>
             </form>
         </div>
-        <div id="numList" class="output">
 
-        </div>
+        <div id="numList" class="output"></div>
     </main>
+
     <div data-include="components/footer.html"></div>
     <script src="scripts/HTMLInclude.js"></script>
 </body>
