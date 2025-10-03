@@ -78,7 +78,7 @@ function runFizzBuzz() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const form = document.getElementById("fizzbuzzForm");
+    const form = document.getElementById("form");
     form.addEventListener("submit", function (event) {
         event.preventDefault();
         runFizzBuzz();
