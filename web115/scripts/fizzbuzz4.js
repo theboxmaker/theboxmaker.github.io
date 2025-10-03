@@ -15,16 +15,16 @@ function greeting() {
 
     document.getElementById("greeting").textContent = greetingMsg;
 
-    const firstDivisor = parseInt(document.getElementById('div1').placeholder);
-    const firstWord = document.getElementById('word1').placeholder;
+    const firstDivisor = parseInt(document.getElementById('div1').value);
+    const firstWord = document.getElementById('word1').value;
 
-    const secondDivisor = parseInt(document.getElementById('div2').placeholder);
-    const secondWord = document.getElementById('word2').placeholder;
+    const secondDivisor = parseInt(document.getElementById('div2').value);
+    const secondWord = document.getElementById('word2').value;
 
-    const thirdDivisor = parseInt(document.getElementById('div3').placeholder);
-    const thirdWord = document.getElementById('word3').placeholder;
+    const thirdDivisor = parseInt(document.getElementById('div3').value);
+    const thirdWord = document.getElementById('word3').value;
 
-    const defaultWord = document.getElementById('defaultWord').placeholder;
+    const defaultWord = document.getElementById('defaultWord').value;
     const limit = parseInt(document.getElementById('total').value);
 
     const rules = [
