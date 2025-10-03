@@ -30,7 +30,7 @@ function runFizzBuzz() {
     const w2 = document.getElementById('word2').value.trim();
     const w3 = document.getElementById('word3').value.trim();
 
-    const defaultWord = document.getElementById('defaultWord').value;
+    const defaultWord = document.getElementById('default-word').value;
     let limit = parseInt(document.getElementById('total').value, 10);
 
     const outEl = document.getElementById('numList');
