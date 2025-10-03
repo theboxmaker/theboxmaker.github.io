@@ -33,6 +33,7 @@ label {
     border: 20px groove #8b4513;
     border-radius: 25px;
     padding: 15px;
+    background-color: beige;
 }
 
 .navbar {
