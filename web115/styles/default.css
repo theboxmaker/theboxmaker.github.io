@@ -30,8 +30,9 @@ label {
 .form-container {
     margin-top: 35px;
     margin-left: 100px;
-    border: 1px transparent #8b4513;
+    border: 20px groove #8b4513;
     border-radius: 25px;
+    padding: 15px;
 }
 
 .navbar {
