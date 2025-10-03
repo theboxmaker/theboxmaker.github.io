@@ -28,8 +28,10 @@ label {
 }
 
 .form-container {
-    margin: 100px;
-    border: 1px solid black;
+    margin-top: 35px;
+    margin-left: 100px;
+    border: 1px transparent #8b4513;
+    border-radius: 25px;
 }
 
 .navbar {
