@@ -15,44 +15,58 @@ function greeting() {
 
     document.getElementById("greeting").textContent = greetingMsg;
 
-    const firstDivisor = parseInt(document.getElementById('div1').value);
-    const firstWord = document.getElementById('word1').value;
+    if (isNaN(firstDivisor) || isNaN(secondDivisor) || isNaN(thirdDivisor) || isNaN(limit) || limit <= 0 ||
+        firstDivisor <= 0 || secondDivisor <= 0 || thirdDivisor <= 0) {
+        alert("Invalid input. Please enter positive numbers for all fields.");
+        return;
 
-    const secondDivisor = parseInt(document.getElementById('div2').value);
-    const secondWord = document.getElementById('word2').value;
+        const firstDivisor = parseInt(document.getElementById('div1').value);
+        const firstWord = document.getElementById('word1').value;
 
-    const thirdDivisor = parseInt(document.getElementById('div3').value);
-    const thirdWord = document.getElementById('word3').value;
+        const secondDivisor = parseInt(document.getElementById('div2').value);
+        const secondWord = document.getElementById('word2').value;
 
-    const defaultWord = document.getElementById('defaultWord').value;
-    const limit = parseInt(document.getElementById('total').value);
+        const thirdDivisor = parseInt(document.getElementById('div3').value);
+        const thirdWord = document.getElementById('word3').value;
 
-    const rules = [
-        { divisor: firstDivisor, word: firstWord, className: "word1" },
-        { divisor: secondDivisor, word: secondWord, className: "word2" },
-        { divisor: thirdDivisor, word: thirdWord, className: "word3" }
-    ];
+        const defaultWord = document.getElementById('defaultWord').value;
+        const limit = parseInt(document.getElementById('total').value);
 
-    let output = "";
+        const rules = [
+            { divisor: firstDivisor, word: firstWord, className: "word1" },
+            { divisor: secondDivisor, word: secondWord, className: "word2" },
+            { divisor: thirdDivisor, word: thirdWord, className: "word3" }
+        ];
 
-    for (let i = 1; i <= limit; i++) {
-        let line = `${i}.) `;
-        let words = [];
+        let output = "";
 
-        rules.forEach((rule) => {
-            if (checkDivision(i, rule.divisor)) {
-                words.push(`<span class="${rule.className}">${rule.word}</span>`);
+        for (let i = 1; i <= limit; i++) {
+            let line = `${i}.) `;
+            let words = [];
+
+            rules.forEach((rule) => {
+                if (checkDivision(i, rule.divisor)) {
+                    words.push(`<span class="${rule.className}">${rule.word}</span>`);
+                }
+            });
+
+            if (words.length > 0) {
+                line += words.join(" ");
+            } else {
+                line += defaultWord;
             }
-        });
 
-        if (words.length > 0) {
-            line += words.join(" ");
-        } else {
-            line += defaultWord;
+            output += line + "<br>";
         }
 
-        output += line + "<br>";
+        document.getElementById("numList").innerHTML = output;
     }
-
-    document.getElementById("numList").innerHTML = output;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("form");
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        greeting();
+    })
+})
