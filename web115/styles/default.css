@@ -21,6 +21,16 @@ h1 {
     text-align: center;
 }
 
+label {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.form-container {
+    margin: 100px;
+}
+
 .navbar {
     width: 100vw;
     margin: 0px;
