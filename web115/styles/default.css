@@ -14,6 +14,16 @@ img {
     max-width: 460px;
 }
 
+.logo {
+    display: inline-block;
+    max-width: 350px;
+}
+
+.logo img {
+    width: 30%;
+    height:auto;
+}
+
 h1 {
     color: #3e2723;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
