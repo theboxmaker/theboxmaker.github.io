@@ -24,11 +24,11 @@ img {
     height:auto;
 }
 
-.logo-header {
+.banner {
     width: 100px;
     height: auto;  
-    display: flex;
-    float: left;
+    display: inline-block;
+    justify-content: center;
 }
 
 h1 {
