@@ -2,6 +2,7 @@
     display: flex;
     margin-top: 10.5%;
     margin-left: 24%;
+    box-sizing: border-box;
     width: 600px;
     height: 375px;
     background-color: #e3dac9;
@@ -80,7 +81,7 @@
     width: 50%;
     height:auto;
 }
-.business-card h1 {
+h1 {
     font-size: 3.5em;
     color:#8b4513;
     text-shadow: 2px 2px 5px #8b4513;
