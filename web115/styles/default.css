@@ -28,7 +28,7 @@ img {
     width: 100px;
     height: auto;  
     display: inline-block;
-    align-items: center;
+    justify-content: center;
 }
 
 .banner img {
