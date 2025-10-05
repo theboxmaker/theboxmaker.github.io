@@ -31,6 +31,11 @@ img {
     justify-content: center;
 }
 
+.banner img {
+    display: flex;
+    float: left;
+}
+
 h1 {
     color: #3e2723;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
