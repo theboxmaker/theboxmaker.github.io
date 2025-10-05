@@ -31,9 +31,9 @@ img {
     align-items: center;
 }
 
-.banner img {
-    display: flex;
-    float: left;
+.header {
+    width: 100vw;
+    justify-content: center;
 }
 
 h1 {
