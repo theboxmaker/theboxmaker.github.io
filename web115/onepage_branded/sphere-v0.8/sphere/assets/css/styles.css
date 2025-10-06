@@ -32,7 +32,7 @@ video,
 canvas,
 svg {
   display: block;
-  max-width: 100%;
+  width: 70%;
   height: auto;
 }
 
@@ -43,7 +43,7 @@ select {
   font: inherit;
   color: inherit;
   background: none;
-  border: none;
+  border: 1px solid black;
   outline: none;
 }
 
@@ -164,8 +164,8 @@ hr {
   border: none;
   height: 1px;
   display: block;
-  margin: 40px 0;
-  border-bottom: 2px dotted;
+  margin: 20px 0;
+  border-bottom: 2px groove #8b4513;
 }
 
 b, strong {
@@ -207,6 +207,12 @@ select {
   -moz-appearance: none;
 }
 
+fieldset {
+    border: 10px groove #8b4513;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
 /* ------------------------------------------------------------------------------- */
 /* Header (logo + nav) */
 /* ------------------------------------------------------------------------------- */
@@ -324,17 +330,16 @@ section p a {
 }
 section hr {
   border: none;
-  height: 160px;
+  height: 80px;
 }
 @media (max-width: 600px) {
   section hr {
     height: 80px;
   }
 }
-
 div.boxed img {
   width: 100%;
-  max-width: 1020px;
+  max-width: 512px;
   border-radius: 12px;
 }
 div.boxed p,
