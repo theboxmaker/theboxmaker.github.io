@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/default.css">
+    <title>Intro Form</title>
+    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+    <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="../web115/images/favicon_io/favicon.ico">
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Introduction Form</h2>
+        <form id="introForm">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="group1">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="firstName" value="Zachary" required>
+                </div>
+                <div class="group1">
+                    <label for="middle-initial">Middle Initial</label>
+                    <input type="text" id="middleInitial" value="J" maxlength="1">
+                </div>
+                <div class="group1">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="lastName" value="Tucker" required>
+                </div>
+                <div class="group1">
+                    <label for="statement">Brief Introduction Statement:</label>
+                    <input type="text" id="statement"
+                        value="Hello! My name is Zachary. I am very excited to complete my last semester here at CPCC!"
+                        required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>What are your hobbies/interest?</legend>
+                <p>Please enter 3: </p>
+                <div class="form2">
+                    <div class="interests">
+                        <label for="interest1">Interest 1:</label>
+                        <input type="text" id="interest1" value="Rock Climbing" required>
+                    </div>
+                    <div class="interests">
+                        <label for="interest2">Interest 2:</label>
+                        <input type="text" id="interest2" value="Golf" required>
+                    </div>
+                    <div class="interests">
+                        <label for="interest3">Interest 3:</label>
+                        <input type="text" id="interest3" value="Going to the gym" required>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>What courses are you taking?</legend>
+                <p>Up to 6 courses:</p>
+                <div id="courses">
+                    <div class="course1">
+                        <input type="text" id="course1" class="course1" value="WEB115" required>
+                    </div>
+                    <div class="course2">
+                        <input type="text" id="course2" class="course2" value="WEB250" required>
+                    </div>
+                    <div class="course3">
+                        <input type="text" id="course3" class="course3" value="WEB140" required>
+                    </div>
+                    <div class="course4">
+                        <input type="text" id="course4" class="course4" value="CTS240" required>
+                    </div>
+                    <div class="course5">
+                        <input type="text" id="course5" class="course5" value="CSC221" required>
+                    </div>
+                    <div class="course6">
+                        <input type="text" id="course6" class="course6" value="WEB215" required>
+                    </div>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <hr>
+
+        <div id="form-output-area">
+
+        </div>
+        <script src="scripts/HTMLInclude.js"></script>
+        <script src="scripts/intro-form.js"></script>
+
+</body>
+<div data-include="components/footer.html">
+
+</div>
+
+</html>

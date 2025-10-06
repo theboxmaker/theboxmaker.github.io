@@ -14,6 +14,11 @@ img {
     max-width: 460px;
 }
 
+button {
+    position: absolute;
+    left: 20%;
+}
+
 .logo {
     display: inline-block;
     max-width: 350px;
@@ -166,4 +171,16 @@ a {
 #numList {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 1rem;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+legend, label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+legend {
+    font-weight: bolder;
 }
