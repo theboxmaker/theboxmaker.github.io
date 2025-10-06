@@ -184,3 +184,17 @@ legend, label {
 legend {
     font-weight: bolder;
 }
+
+fieldset {
+    border: 10px groove #8b4513;
+    border-radius: 25px;
+}
+
+input {
+    box-shadow: 2px 2px 5px;
+}
+
+#courses {
+    padding: 10px;
+    margin: 5px;
+}
