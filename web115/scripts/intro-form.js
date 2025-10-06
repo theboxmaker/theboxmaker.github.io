@@ -39,4 +39,4 @@ document.getElementById("introForm").addEventListener("submit", function(event) 
     `;
 
     document.getElementById("form-output-area").innerHTML = outputHTML;
-})
+});
