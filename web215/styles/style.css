@@ -1,5 +1,5 @@
 body {
-    background-color: #e3dac9;
+    background-color: #c9f6d3;
     padding: 1em;
     margin: 0px;
 }
@@ -88,7 +88,7 @@ label {
 }
 
 .navbar a {
-    color: #e3dac9;
+    color: #c9f6d3;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -130,68 +130,8 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.word1 {
-    color: green;
-    font-weight: bold;
-}
-
-.word2 {
-    color: darkolivegreen;
-    font-weight: bolder;
-}
-
-.word3 {
-    color:#8b4513;
-    font-weight:900;
-    text-decoration: line-through;
-}
-
-.first-div {
-    color: green;
-    font-weight: bold;
-}
-
-.second-div {
-    color: darkolivegreen;
-    font-weight: bolder;
-}
-
-.third-div {
-    color:#8b4513;
-    font-weight:900;
-    text-decoration: line-through;
-}
-
-#loop {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 1rem;
-    margin: 1rem;
-}
-
-#numList {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1rem;
-}
-
 h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-legend, label {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-legend {
-    font-weight: bolder;
-}
-
-fieldset {
-    border: 10px groove #8b4513;
-    border-radius: 25px;
-}
-
-input {
-    box-shadow: 2px 2px 5px;
 }
 
 #courses {
