@@ -73,13 +73,14 @@ label {
     width: 100vw;
     margin: 0px;
     padding: 0px;
+    border-radius: 15px;
 }
 
 .navbar ul {
     list-style-type: none;
     background-color: #8b4513;
     padding: 0px;
-    margin-right:auto;
+    margin: 0px;
     overflow: hidden;
 }
 
