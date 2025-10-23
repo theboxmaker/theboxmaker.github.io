@@ -19,6 +19,10 @@ button {
     left: 20%;
 }
 
+.centered {
+    text-align: center;
+}
+
 .logo {
     display: inline-block;
     max-width: 350px;
