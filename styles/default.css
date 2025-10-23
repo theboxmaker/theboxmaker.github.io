@@ -134,7 +134,7 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a:visited {
+a.solo:visited {
     color:#8b4513;
 }
 
