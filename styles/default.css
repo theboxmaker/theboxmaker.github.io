@@ -134,6 +134,10 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+a:visited {
+    color:#8b4513;
+}
+
 .word1 {
     color: green;
     font-weight: bold;
