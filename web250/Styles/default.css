@@ -19,6 +19,11 @@ button {
     left: 20%;
 }
 
+.centered {
+    position: absolute;
+    left: 50%;
+}
+
 .logo {
     display: inline-block;
     max-width: 350px;
