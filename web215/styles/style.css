@@ -29,7 +29,9 @@ button {
 .credit {
     position: fixed;
     left: 50%;
-    bottom: 0;
+    bottom: -10px;
+    background-color: #143c1d;
+    color: #bc4f01;
 }
 
 .logo {
