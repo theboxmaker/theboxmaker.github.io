@@ -11,7 +11,7 @@ main{
 footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 50px;
     width: 100%;
 }
 
@@ -24,6 +24,12 @@ img {
 button {
     position: absolute;
     left: 20%;
+}
+
+.credit {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
 }
 
 .logo {
