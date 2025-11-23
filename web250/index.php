@@ -1,3 +1,33 @@
+<?php
+// Determine requested page (default = home)
+$page = isset($_GET['page']) ? $_GET['page'] : 'home';
+
+// Whitelist pages (add more as you create them)
+$allowed_pages = [
+    'home',
+    'introduction',
+    'contract',
+    'superduper static',
+    'superduper php'
+];
+
+// If page is not allowed, fall back to home
+if (!in_array($page, $allowed_pages)) {
+    $page = 'home';
+}
+
+// Titles for each page
+$titles = [
+    'home' => "Home",
+    'introduction' => "Introduction",
+    'contract' => "Contract",
+    'superduper static' => "SuperDuper Static",
+    'superduper php' => "SuperDuper PHP"
+];
+
+// Build the final <title> text
+$full_title = "Zachary Tucker's Web Projects | WEB250 | " . ($titles[$page] ?? "Home");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,18 +35,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/default.css">
-    <title>Zachary Tucker's Web Projects | WEB250 | Home</title>
+    <title><?= htmlspecialchars($full_title) ?></title>
     <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <?php include 'components/header.html' ?>
+
+    <?php include 'components/header.html'; ?>
+
     <main>
-        <h2>Home</h2>
-        <p>This is the landing page for WEB250 - Database Driven Websites.</p>
+        <?php include "contents/$page.php"; ?>
     </main>
 
-    <?php include 'components/footer.html' ?>
+    <?php include 'components/footer.html'; ?>
+
 </body>
 
 </html>
