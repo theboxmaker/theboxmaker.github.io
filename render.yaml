@@ -1,7 +1,6 @@
 services:
   - name: zach-portfolio
     type: web
-    env: php
     plan: free
     rootDir: .
     buildCommand: ""
