@@ -1,5 +1,5 @@
 {
-  "name": "zach/project",
-  "description": "Render PHP runtime detection",
+  "name": "zach/portfolio-site",
+  "description": "Render PHP runtime detection for Zachary Tucker’s multi-class portfolio site",
   "require": {}
 }

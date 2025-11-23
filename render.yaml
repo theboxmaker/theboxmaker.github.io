@@ -1,8 +1,9 @@
 services:
   - type: web
-    name: web250-php-site
+    name: zach-portfolio
     env: php
     plan: free
     buildCommand: ""
     startCommand: "php -S 0.0.0.0:10000 -t ."
+    rootDir: .
     autoDeploy: true
