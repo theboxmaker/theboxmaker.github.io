@@ -18,7 +18,9 @@ button {
     position: absolute;
     left: 20%;
 }
-
+ footer p {
+    text-align: center;
+ }
 .centered {
     position: absolute;
 }
